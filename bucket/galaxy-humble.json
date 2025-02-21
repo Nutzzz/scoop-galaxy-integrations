@@ -1,9 +1,9 @@
 {
-    "homepage": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble",
-    "version": "0.9.5",
+    "homepage": "https://github.com/UncleGoogle/galaxy-integration-humblebundle",
+    "version": "0.11.0",
     "depends": "sudo",
-    "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble/releases/download/0.9.5/windows.zip",
-    "hash": "81302b8198515a58dcbd2e22aab2816b0281a5a768e9adb14cadbb62d929ebd4",
+    "url": "https://github.com/UncleGoogle/galaxy-integration-humblebundle/releases/download/v0.11.0/humble_v0.11.0_win.zip",
+    "hash": "db93fd8e2853be28f5900fc02693e9a7c883ea45ead228200af8118de1edba11",
     "extract_to": "integration",
     "persist": "integration\\config.ini",
     "uninstaller": {
@@ -69,9 +69,9 @@
         "Write-Host \"This plugin has a config file located here: $persist_dir\\integration\\config.ini\" -f Magenta"
     ],
     "checkver": {
-        "github": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble"
+        "github": "https://github.com/UncleGoogle/galaxy-integration-humblebundle"
     },
     "autoupdate": {
-        "url": "https://github.com/FriendsOfGalaxy/galaxy-integration-humble/releases/download/$version/windows.zip"
+        "url": "https://github.com/UncleGoogle/galaxy-integration-humblebundle/releases/download/v$version/humble_v$version_win.zip"
     }
 }
