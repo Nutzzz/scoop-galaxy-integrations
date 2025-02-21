@@ -9,8 +9,8 @@
         "script": "(Get-Item \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\\legacy\").Delete()"
     },
     "post_install": [
-        "$integration = \"legacy\"",
-        "$wildcard = \"*legacy*\"",
+        "$integration = \"legacygames\"",
+        "$wildcard = \"*test*\"",
         "$gi_path = \"$env:LOCALAPPDATA\\GOG.com\\Galaxy\\plugins\\installed\"",
         "$path = \"$gi_path\\$integration\"",
         "$source = \"$scoopdir\\apps\\$app\\current\\integration\"",
